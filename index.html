@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Restaurant Website Design Using HTML CSS And JavaScript."
+    />
+    <title>Restaurant</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title icon -->
+    <link rel="shortcut icon" href="img/home.png" />
+    <!-- Render all elements -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- BoxIcons file -->
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <!-- <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> -->
+    <!-- Main css file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <div class="header-container container">
+        <h2 class="logo">
+          <a href="#index.html" class="links">
+            Tasty
+            <i class="bx bx-bowl-rice"></i>
+          </a>
+        </h2>
+        <nav class="nav">
+          <button class="nav-toggle" aria-label="nav toggle icon">
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="nav-links">
+            <ul>
+              <li class="nav-link">
+                <a href="#home" class="links active">home</a>
+              </li>
+              <li class="nav-link"><a href="#about" class="links">about</a></li>
+              <li class="nav-link">
+                <a href="#services" class="links">services</a>
+              </li>
+              <li class="nav-link"><a href="#menu" class="links">menu</a></li>
+              <li class="nav-link">
+                <a href="#contact" class="links">contact us</a>
+              </li>
+            </ul>
+            <button class="mood" aria-label="Mood changer">
+              <i class="bx bx-moon links"></i>
+              <!-- <i class='bx bx-sun' ></i> -->
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section class="home section" id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-text">
+            <h1 class="home-head">Tasty food</h1>
+            <p class="home-par">
+              Try the best food of <br />
+              the week.
+            </p>
+            <button class="but" aria-label="open menu">view menu</button>
+          </div>
+          <div class="home-img">
+            <img src="img/home.png" alt="home image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start About-->
+    <section class="about section pad" id="about">
+      <div class="container">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="about img" />
+        </div>
+        <div class="about-text">
+          <h3 class="about-head">About us</h3>
+          <h2 class="about-title">We cook the best tasty food</h2>
+          <p class="about-par">
+            We cook the best food in the entire city, with excellent customer
+            service, the best meals and at the best price, visit us.
+          </p>
+          <button class="but">Explore history</button>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Start Services -->
+    <section class="services section pad" id="services">
+      <div class="special-title">
+        <h4>Offering</h4>
+        <h2>Our amazing services</h2>
+      </div>
+      <div class="container">
+        <div class="services-box">
+          <div class="serv-img">
+            <img src="img/dish.png" alt="pizza image" />
+          </div>
+          <h3 class="serv-head">Excellent food</h3>
+          <p class="serv-par">
+            We offer our clients excellent quality services for many years, with
+            the best and delicious food in the city.
+          </p>
+        </div>
+        <div class="services-box">
+          <div class="serv-img">
+            <img src="img/pizza.png" alt="pizza image" />
+          </div>
+          <h3 class="serv-head">Fast food</h3>
+          <p class="serv-par">
+            We offer our clients excellent quality services for many years, with
+            the best and delicious food in the city.
+          </p>
+        </div>
+        <div class="services-box">
+          <div class="serv-img">
+            <img src="img/delivery-truck.png" alt="pizza image" />
+          </div>
+          <h3 class="serv-head">Excellent food</h3>
+          <p class="serv-par">
+            We offer our clients excellent quality services for many years, with
+            the best and delicious food in the city.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Menu -->
+    <section class="menu section pad" id="menu">
+      <div class="special-title">
+        <h4>Offering</h4>
+        <h2>Our amazing services</h2>
+      </div>
+      <div class="container">
+        <div class="menu-item">
+          <img src="img/plate1.png" alt="menu plate1" />
+          <h3 class="menu-head">Barbecue salad</h3>
+          <p>Delicious dish</p>
+          <span class="value">$22.00 </span>
+          <button class="but valid">
+            <i class="bx bx-cart-alt"></i>
+            <!-- <i class='bx bx-check'></i> -->
+          </button>
+        </div>
+        <div class="menu-item">
+          <img src="img/plate2.png" alt="menu plate1" />
+          <h3 class="menu-head">Salad with fish</h3>
+          <p>Delicious dish</p>
+          <span class="value">$12.00 </span>
+          <button class="but valid"><i class="bx bx-cart-alt"></i></button>
+        </div>
+        <div class="menu-item">
+          <img src="img/plate3.png" alt="menu plate1" />
+          <h3 class="menu-head">Spinach salad</h3>
+          <p>Delicious dish</p>
+          <span class="value">$9.50 </span>
+          <button class="but valid"><i class="bx bx-cart-alt"></i></button>
+        </div>
+      </div>
+    </section>
+    <div class="app pad">
+      <div class="container">
+        <div class="special-title app-data">
+          <h4>App</h4>
+          <h2>App is aviable</h2>
+          <p>
+            Find our application and download it, you can make reservations,
+            food orders, see your deliveries on the way and much more.
+          </p>
+          <div class="app-img">
+            <a href="#">
+              <img src="img/app1.png" alt="image app one" />
+            </a>
+            <a href="#">
+              <img src="img/app2.png" alt="image app one" />
+            </a>
+          </div>
+        </div>
+        <div class="app-mobile">
+          <img src="img/movil-app.png" alt="movil-app" />
+        </div>
+      </div>
+    </div>
+    <!-- End Menu -->
+    <!-- Start Contact -->
+    <section class="contact section pad" id="contact">
+      <div class="container">
+        <div class="special-title contact-data">
+          <h4>Let's talk</h4>
+          <h2>Contact us</h2>
+          <p>
+            If you want to reserve a table in our restaurant, contact us and we
+            will attend you quickly, with our 24/7 chat service.
+          </p>
+        </div>
+        <div class="contact-but">
+          <button class="but">contact us now</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <footer class="footer pad">
+      <div class="container">
+        <div class="footer-box">
+          <h2>
+            <a href="#">Tasty Food</a>
+          </h2>
+          <p>Restaurant</p>
+          <div class="footer-social">
+            <ul>
+              <li>
+                <a href="#" class="links"><i class="bx bxl-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#" class="links"><i class="bx bxl-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#" class="links"><i class="bx bxl-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#" class="links">Delivery</a></li>
+            <li><a href="#" class="links">Pricing</a></li>
+            <li><a href="#" class="links">Fast food</a></li>
+            <li><a href="#" class="links">Reserve your spot</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#" class="links">Event</a></li>
+            <li><a href="#" class="links">Contact us</a></li>
+            <li><a href="#" class="links">Privacy policy</a></li>
+            <li><a href="#" class="links">Terms of services</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#" class="links">Egypt</a></li>
+            <li><a href="#" class="links">+20 106 620 5027</a></li>
+            <li><a href="#" class="links">ahmedelgebalywork@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="right">© 2020 Bedimcode. All right reserved</span>
+    </footer>
+    <!-- Scroll top -->
+    <a class="scroll-top" href="#home" id="scroll-top">
+      <i class="bx bxs-chevron-up"></i>
+    </a>
+    <!-- ScrollReveal library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Js file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
